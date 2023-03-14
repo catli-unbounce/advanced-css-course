@@ -1,0 +1,8 @@
+@import "abstract/variables";
+@import "pages/home";
+@import "base/typography";
+.header {
+  &__logo-box {
+    color: red;
+  }
+}
