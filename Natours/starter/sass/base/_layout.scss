@@ -1,0 +1,21 @@
+@import "../abstract/variables";
+body {
+  background-color: $color-grey-light-1;
+}
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-50 {
+  flex: 48% 0 0;
+}
+
+.col-33 {
+  flex: 30.3% 0 0;
+}
